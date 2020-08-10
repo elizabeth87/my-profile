@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+  />
+    <!-- ===== BOX ICONS ===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel='stylesheet'href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <title>Portfolio responsive complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">ES</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+            <!-- <li class="nav__item">
+              <a href="resume/cover-letter/Resume/PDF" class="nav__link">Resume</a>
+            </li> -->
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <div class="home__container bd-grid">
+          <h1 class="home__title"><span>Create.</span><br /><span>Code.</span><br /><span>Repeat.</span></h1>
+          <div class='alink'><a href="#about" class="meet-me">Meet Elizabeth</a></div>
+
+          <div class="home__scroll">
+            <main href="#about" class="home__scroll-link"
+              ><i class=""></i></main>
+            
+          </div>
+          <!-- <img src="img/me.png" alt="" class="home__img" /> -->
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img"></div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Elizabeth Soto</h2>
+            <span class="about__profession">Full Stack Developer</span>
+            <p class="about__text">
+              I'm a software engineer primarily interested in front-end web development. 
+              There is nothing more satisfying than seeing my skills improve along with completing projects that im proud of. 
+              I have a strong drive to acquire more knowledge and apply what I have learned to help others build their businesses and to help companies serve their customers.<br /> 
+            </p>
+
+
+ <!-- I don't think anything is more satisfying than seeing my skills improve and completing a project that I'm proud of. I have fun finding creative and capable solutions to interesting problems and discussing them with my friends and colleagues. I highly respect the use of solid, iterative, problem-solving processes and I strive to integrate them into my daily and professional life wherever possible.  -->
+
+
+
+            <div class="about__social">
+              <a href="https://www.linkedin.com/in/elizabethsoto11/" class="about__social-icon"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a href="https://github.com/elizabeth87/KLO-eccomerce" class="about__social-icon"
+                ><i class="bx bxl-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills__container bd-grid">
+          <div class="skills__box">
+            <h3 class="skills__subtitle">Skills</h3>
+            <span class="skills__name">Html5</span>
+            <span class="skills__name">Css</span>
+            <span class="skills__name">Javascript/ES6+</span>
+            <span class="skills__name">Node.js(+Express)</span>
+            <span class="skills__name">React</span>
+            <span class="skills__name">Non-relational databases(+MongoDB)</span>
+            <span class="skills__name"> React(+Router, Context, Hooks)</span>
+            <span class="skills__name">Object-Oriented Programming</span>
+            <span class="skills__name">RESTful APIs</span>
+            <span class="skills__name">Bootstrap 4</span>
+
+            <h3 class="skills__subtitle">Tools</h3>
+            <span class="skills__name">VS code</span>
+            <span class="skills__name">GitHub</span>
+            <span class="skills__name">Npm</span>
+            <span class="skills__name">Babel</span>
+            <span class="skills__name">Webpack</span>
+            <span class="skills__name">Git</span>
+            <span class="skills__name">Asana</span>
+          </div>
+          <div className="skills_img">
+            <img src="img/computer.jpg" alt="computer img">
+          </div>
+        </div>
+      </section>
+
+      <!--===== PROJECTS =====-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Projects</h2>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="card shadow" style="width: 20rem;">
+                <div class="inner">
+                  <a href="https://www.adrianas-sweets.com/">
+                <img src="./img/84947AF6-177A-4DEA-908E-6650A0567864_1_105_c.jpeg" class="card-img-top" alt="...">
+              </a>
+              </div>
+                <div class="card-body">
+                  <h5 class="card-title">KLO Bakery</h5>
+                  <p class="card-text">Built an eccomerce site where users can place an order online from a local bakery. Created the design based on the client's desired features and flow.
+                  </p>
+                <div class='buttons'>
+                  <button><i class="fab fa-github"></i> Github</button>
+                  <div class='button'>
+                    <button class="live"><a href="https://www.adrianas-sweets.com/"><i class="fas fa-satellite-dish"></i> Live</a></button>
+                  </div>
+                </div>
+                </div>
+
+              <section class="skills section" id="skills">
+                <div class="list-group">
+                <div class="skills__container bd-grid">
+                  <div class="skills__box">
+                    <h3 class="skills__subtitle">Designed With</h3>
+                    <span class="skills__name">Html5</span>
+                    <span class="skills__name">Bootstrap</span>
+                    <span class="skills__name">Javascript/ES6+</span>
+                    <span class="skills__name">React</span>
+                    <span class="skills__name">React Router</span>
+                    <span class="skills__name">Styled Components</span>
+                    <span class="skills__name">Context api</span>
+                  </div>
+                  </div>
+                  </div>
+              </section>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+          </div>
+        </div>
+       
+      </section>
+    
+      
+      <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js">
+</script>
+
+    <!--===== FOOTER =====-->
+
+    <footer class="footer section contact" id="contact">
+      <div class="footer__container bd-grid">
+        <div class="footer__data">
+            <h2 class="footer__title">CONTACT</h2>
+            <ul>
+              <li><a href="https://www.oaklandca.gov/" class="footer__link"> <i class="fas fa-map-marker-alt"></i> Oakland, Ca</a></li>
+              <li><a href="https://mail.google.com" class="footer__link"> <i class="fas fa-envelope"></i> elizabeths11b@gmail.com</a></li>
+              <li><a href="" class="footer__link"><i class="fas fa-phone"></i> (209)598-8771</a></li>
+            </ul>
+          </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">EXPLORE</h2>
+          <ul>
+            <li><a href="#home" class="footer__link">Home</a></li>
+            <li><a href="#about" class="footer__link">About</a></li>
+            <li><a href="#skills" class="footer__link">Skills</a></li>
+            <li><a href="#portfolio" class="footer__link">Projects</a></li>
+            <li><a href="#Contact" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__data">
+          <h2 class="footer__title">FOLLOW</h2>
+          <a href="https://www.linkedin.com/in/elizabethsoto11/" class="about__social-icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/elizabeth87/KLO-eccomerce" class="about__social-icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
